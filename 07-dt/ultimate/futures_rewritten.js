@@ -1672,7 +1672,7 @@ Options.Triggers.push({
       type: 'StartsUsing',
       netRegex: { id: '9CF5', source: 'Oracle of Darkness', capture: false },
       condition: (data) => data.phase === 'p3-apoc' && data.role === 'tank',
-      delaySeconds: 3,
+      delaySeconds: 0,
       durationSeconds: 2,
       infoText: (data, _matches, output) => {
         const startNum = data.p3ApocFirstDirNum;
